@@ -67,9 +67,9 @@
                         <breeze-responsive-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
                             Dashboard
                         </breeze-responsive-nav-link>
-                        <breeze-nav-link v-if="$page.props.auth.user.roles.map((attr) => attr.name).includes('Admin')" :href="route('users')" :active="route().current('users')">
+                        <breeze-responsive-nav-link v-if="$page.props.auth.user.roles.map((attr) => attr.name).includes('Admin')" :href="route('users')" :active="route().current('users')">
                             Users
-                        </breeze-nav-link>
+                        </breeze-responsive-nav-link>
                     </div>
 
                     <!-- Responsive Settings Options -->
