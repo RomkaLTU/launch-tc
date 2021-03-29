@@ -205,18 +205,18 @@
         setup() {
             const questions_p1 = ref([
                 'Lorem, ipsum dolor.',
-                // 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                // 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-                // 'Lorem ipsum dolor sit.',
-                // 'Lorem ipsum dolor sit amet consectetur.',
+                'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+                'Lorem ipsum dolor sit amet consectetur adipisicing.',
+                'Lorem ipsum dolor sit.',
+                'Lorem ipsum dolor sit amet consectetur.',
             ]);
 
             const questions_p2 = ref([
                 'Lorem ipsum dolor sit axet consectetur adipisicing.',
-                // 'Lorem ipsxm dolor sit.',
-                // 'Lorem ixsm dolor sit amet consectetur adipisicing elit.',
-                // 'Lorem, ipsum xolor.',
-                // 'Lorem, ipsxm dolor site amet.',
+                'Lorem ipsxm dolor sit.',
+                'Lorem ixsm dolor sit amet consectetur adipisicing elit.',
+                'Lorem, ipsum xolor.',
+                'Lorem, ipsxm dolor site amet.',
             ]);
 
             const user = computed(() => usePage().props.value.auth.user)
